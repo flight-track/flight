@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    border-bottom: solid 0.5px rgb(231, 229, 229);
+    width: 100%;
+}
+header nav{
+    padding: 10px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav img{
+    width: 35%;
+}
+
+main{
+    padding: 10px;
+}
+.login{
+    display: flex;
+    flex-flow: column;
+    justify-content: first baseline;
+    align-items: first baseline;
+}
+.login h2{
+    font-size: 30px;
+    color: rgb(114, 165, 224);
+    margin: 10px 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
+}
+.login article{
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 5px 0px;
+    font-weight: 100;
+}
+.required-hint{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.dot{
+    width: 5px;
+    height: 5px;
+    border-radius: 2.5px;
+    background-color: rgb(151, 5, 5);
+    margin: 0px 5px;
+}
+.required-hint h6{
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 5px 0px;
+    font-weight: 100;
+}
+form{
+    margin: 10px 0px ;
+    width: 100%;
+}
+.input-wrapper{
+    display: flex;
+    flex-flow: column;
+    justify-content: first baseline;
+    align-items: first baseline;
+}
+.input-wrapper .p{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0px;
+}
+.input-wrapper .p p{
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 5px 0px;
+    font-weight: 100;
+}
+.remember-me{
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: first baseline;
+    align-items: center;
+    padding: 10px 0px;
+}
+.remember-me input{
+    width: 20px;
+    margin-right: 10px;
+}
+form input{
+    width: 95%;
+    height: 20px;
+    padding: 5px;
+}
+form h6{
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 5px 0px;
+    font-weight: 100;
+    line-height: 15px;
+    margin: 20px 0px;
+}
+#log-in-button{
+    height: 35px;
+    width: 95%;
+    margin: 20px 0px;
+    background-color: rgb(47, 95, 151);
+    border: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.greeting-date{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    margin: 10px 0px;
+}
+.greeting-date h5{
+    font-size: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.travel-receipt-header{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    background: linear-gradient(to bottom, rgb(65, 95, 129), rgb(178, 205, 231), rgb(75, 109, 148));
+}
+.travel-receipt-header img{
+    width: 40px;
+    border: solid 0.5px black;
+    border-radius: 40px;
+    padding: 5px;
+}
+.travel-receipt-header p{
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10px 0px;
+}
+.record-locator{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+    border-bottom: solid 0.5px rgb(212, 210, 210);
+}
+.record-locator h6, p{
+    font-size: 12px;
+    margin: 10px 0px;
+    text-align: left;
+    line-height: 15px;
+}
+.trip-receipt{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: first baseline;
+    margin: 20px 0px;
+}
+.trip-receipt h2{
+    font-size: 30px;
+    color: rgb(114, 165, 224);
+    margin: 10px 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
+}
+.trip-receipt h6{
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+}
+.trip-receipt img{
+    width: 15px;
+    margin-right: 15px;
+}
+.trip-receipt h5{
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+}
+.trip-receipt p{
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+    text-transform: uppercase;
+}
+.trip-receipt table{
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+    padding: 5px;
+    text-transform: uppercase;
+    border: solid rgb(252, 170, 170) 1px;
+}
+.trip-receipt table tr{
+    font-size: 12px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+    text-transform: uppercase;
+    width: 350px;
+}
+.trip-receipt table tr td{
+    font-size: 12px;
+}
+.trip-receipt table tr td h6{
+    font-size: 14px;
+}
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    overflow-x: none;
+}
+header{
+    border-bottom: solid 0.5px rgb(231, 229, 229);
+    width: 100%;
+}
+header nav{
+    padding: 10px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav img{
+    width: 35%;
+}
+.reservation-details-wrapper{
+    display: flex;
+    flex-flow: column;
+    justify-content: first baseline;
+    align-items: first baseline;
+}
+.reservation-details-wrapper h5{
+    color: rgb(114, 165, 224);
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 20px;
+    margin: 10px
+}
+.details-wrapper{
+    background-color: rgba(228, 239, 240, 0.7);
+    padding: 15px 10px;
+    width: 90%;
+}
+.details-wrapper .trip-info-receipt{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+.details-wrapper .trip-info-receipt h6, a{
+    font-size: 14px;
+    line-height: 20px;
+    margin: 10px 0px;
+    width: fit-content;
+}
+.details-wrapper p{
+    font-size: 12px;
+    line-height: 15px;
+    margin: 5px 0px;
+}
+.flight-info-wrapper{
+    display: flex;
+    flex-flow: column;
+    justify-content: first baseline;
+    align-items: first baseline;
+    margin: 20px 0px;
+}
+.flight-info-wrapper h5{
+    color: green;
+    font-family: 14px;
+    margin: 5px 0px;
+}
+.flight-info-wrapper .info-wrapper{
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-flow: column;
+    align-items: first baseline;
+    justify-content: first baseline;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+.flight-info-wrapper .info-wrapper .table{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: first baseline;
+    justify-content: space-between;
+}
+.flight-info-wrapper .info-wrapper .table .columns{
+    display: flex;
+    flex-flow: column;
+    align-items: first baseline;
+    justify-content: first baseline;
+}
+
+.flight-info-wrapper .info-wrapper .table .columns h6{
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: rgb(114, 165, 224);
+
+}
+.columns p:first-of-type{
+    margin-bottom: 2px;
+    color: rgb(73, 110, 151);
+
+}
+.flight-info-wrapper .info-wrapper .table .columns p{
+    font-size: 8px;
+    margin-bottom: 2px;
+}
+
+.last-row{
+    width: 100%;
+   display: flex;
+   flex-flow: row;
+   justify-content: space-between;
+   align-items: first baseline;
+   margin: 10px 0px;
+   padding: 5px 0px;
+   border-top: solid 0.5px rgb(218, 218, 218, 0.5);
+}
+.last-row p{
+    font-size: 8px;
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+}
+.before-you-go-wrapper{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: baseline;
+    align-items: first baseline;
+    padding: 10px;
+
+}
+.before-you-go-wrapper h6{
+    color: rgb(223, 16, 16);
+
+}
+.before-you-go-wrapper ul{
+    display: flex;
+    flex-flow: column;
+    justify-content: baseline;
+    align-items: first baseline;
+    padding: 15px 20px;
+}
+.before-you-go-wrapper ul li{
+    list-style: disc;
+    font-size: 8px;
+    color: rgb(223, 16, 16);
+
+}
+.before-you-go-wrapper ul a{
+    list-style: disc;
+    font-size: 8px;
+    color: rgb(47, 16, 223);
+
+}
